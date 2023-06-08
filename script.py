@@ -11,6 +11,3 @@ def text_changer(file_names):
             paragraph.style.paragraph_format.line_spacing = 1.5
             paragraph.style.font.size = Pt(14)
         document.save(new_file_path)
-
-file_names = ['1.docx', '2.docx', '3.docx', '4.docx', '5.docx']
-text_changer(file_names)
